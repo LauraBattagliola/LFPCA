@@ -20,7 +20,7 @@
 #'
 #' @section Main Functions:
 #' \describe{
-#'   \item{\code{\link{LFPCA}}}{Main function for Local Functional PCA}
+#'   \item{\code{\link{LFPCA}}}{Main function for Localized Functional Principal Component Analysis}
 #'   \item{\code{\link{window_cos}}}{Cosine window function}
 #'   \item{\code{\link{window_epan}}}{Epanechnikov window function}
 #'   \item{\code{\link{convert_segments_to_numeric}}}{Convert segment list to numeric}
