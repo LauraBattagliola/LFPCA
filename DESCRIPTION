@@ -1,0 +1,31 @@
+Package: LFPCA
+Title: Localized Functional Principal Component Analysis
+Version: 0.1.0
+Authors@R: 
+    person("Maria Laura", "Battagliola", , "mlbattagliola@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0008-0278-233X"))
+Description: Performs Localized Functional Principal Component Analysis (LFPCA) 
+    by detecting block-diagonal structure in the empirical covariance function of a functional sample using singular value decomposition, then computing principal components within each 
+    localized block. This approach allows for more interpretable eigenfunctions 
+    that capture local features of the data. The package provides smooth 
+    tapering via cosine or Epanechnikov window functions to ensure smooth 
+    transitions between blocks.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    bdsvd,
+    refund,
+    stats
+Suggests:
+    fda,
+    dplyr,
+    tidyr,
+    ggplot2,
+    RColorBrewer,
+    gridExtra,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/LauraBattagliola/LFPCA
+BugReports: https://github.com/LauraBattagliola/LFPCA/issues
