@@ -35,7 +35,7 @@ a window that:
 where \code{a} and \code{b} are the start and end of each contiguous segment.
 }
 \examples{
-# Create a window for indices 10-20 out of 50 timepoints
+# Create a window for indices 15-20 out of 50 timepoints
 w <- window_cos(15:20, num_timepoints = 50, delta = 0.2)
 plot(w, type = "l", main = "Cosine Window Function")
 }
